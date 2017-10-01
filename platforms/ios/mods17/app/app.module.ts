@@ -1,12 +1,19 @@
 import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
 import { NativeScriptModule } from "nativescript-angular/nativescript.module";
+import { NativeScriptHttpModule } from "nativescript-angular/http";
 import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
+import 'rxjs/add/operator/map';
+import 'rxjs/add/operator/do';
+
+import { GdesService } from "./gdes/gdes.service";
 import { ItemService } from "./item/item.service";
+
 import { ItemsComponent } from "./item/items.component";
 import { ItemDetailComponent } from "./item/item-detail.component";
 import { WelcomeComponent } from "./welcome/welcome.component";
+import { GdesComponent } from "./gdes/gdes.component";
 
 @NgModule({
     bootstrap: [
@@ -14,16 +21,18 @@ import { WelcomeComponent } from "./welcome/welcome.component";
     ],
     imports: [
         NativeScriptModule,
-        AppRoutingModule
+        AppRoutingModule,
+        NativeScriptHttpModule
     ],
     declarations: [
         AppComponent,
         ItemsComponent,
         ItemDetailComponent,
-        WelcomeComponent
+        WelcomeComponent,
+        GdesComponent
     ],
     providers: [
-        ItemService
+        ItemService, GdesService
     ],
     schemas: [
         NO_ERRORS_SCHEMA

@@ -1,0 +1,7 @@
+<ListView [items]="gdes | async">
+    <ng-template let-gdes="gdes">
+      <StackLayout>
+        <Label [text]="gdes.fullname"></Label>
+      </StackLayout>
+    </ng-template>
+</ListView>

@@ -174,7 +174,7 @@
 		</data>
 		<key>app/app.component.html</key>
 		<data>
-		YRMl+Squh0Ew00p2Icu9PqvUiqw=
+		6hpFQN2GyWB/QGw4Y3m21ir0SsU=
 		</data>
 		<key>app/app.component.js</key>
 		<data>
@@ -186,23 +186,27 @@
 		</data>
 		<key>app/app.css</key>
 		<data>
-		3e9x8MIuhUJDtAMUslhBFFaAC7M=
+		yylMgILK0Q0X1mQ36OMXfNrYca0=
 		</data>
 		<key>app/app.module.js</key>
 		<data>
-		8TegkvJYDMAU6YnhB1QQ5I0DpzQ=
+		xQIpqyeQzURwQyNlT0ck4nZdVto=
 		</data>
 		<key>app/app.module.ts</key>
 		<data>
-		bAa7wccdbGe0tH3Fp6MittP/DbU=
+		oWF7PTcGSMk03ElW9tk6n9xuk4k=
 		</data>
 		<key>app/app.routing.js</key>
 		<data>
-		y7gdj5PHOXAF6qq8u1clqixDeHI=
+		SUdAztcnD633hplaoVYhMs+62AI=
 		</data>
 		<key>app/app.routing.ts</key>
 		<data>
-		1djM2r+liuFyYnS+5dZNwlU/c3E=
+		FYnqmk4FFL2ueOEDhWia4QM5CMg=
+		</data>
+		<key>app/img/gde-logo.png</key>
+		<data>
+		//MGwUOwy8l7M6CHNopX0liecLU=
 		</data>
 		<key>app/item/item-detail.component.html</key>
 		<data>
@@ -11628,6 +11632,18 @@
 		<data>
 		IgjFpifbBow+wF1XsgWL0Yeo+to=
 		</data>
+		<key>app/welcome/welcome.component.html</key>
+		<data>
+		lNsAPZ3GlUiv9dQdiDljITgFkNA=
+		</data>
+		<key>app/welcome/welcome.component.js</key>
+		<data>
+		jLRPQ4s79EyFKEVUUSdyK6n+qPM=
+		</data>
+		<key>app/welcome/welcome.component.ts</key>
+		<data>
+		AN2xzyC+8CNgDBdqgUncPI6Srt8=
+		</data>
 		<key>build.xcconfig</key>
 		<data>
 		RNL/GAS4TOxSHBwCBUOpAd1PTlk=
@@ -12088,11 +12104,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YRMl+Squh0Ew00p2Icu9PqvUiqw=
+			6hpFQN2GyWB/QGw4Y3m21ir0SsU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bq7gFdAKlsZQnfdfntUp35RS6bClvRdJrXTjTkq01zQ=
+			20Z72L7pljFabbxO2tzdLuQespIgmqz1r5GzkjXdEGk=
 			</data>
 		</dict>
 		<key>app/app.component.js</key>
@@ -12121,55 +12137,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3e9x8MIuhUJDtAMUslhBFFaAC7M=
+			yylMgILK0Q0X1mQ36OMXfNrYca0=
 			</data>
 			<key>hash2</key>
 			<data>
-			W0XsmPXEV1H6jxFipl57Hi2xdwJ26Vb1z9pyiLFhb68=
+			KYZOIIM+vx8Fh/1ylqRl/BZT17HgpexoZbo5b27SS+o=
 			</data>
 		</dict>
 		<key>app/app.module.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8TegkvJYDMAU6YnhB1QQ5I0DpzQ=
+			xQIpqyeQzURwQyNlT0ck4nZdVto=
 			</data>
 			<key>hash2</key>
 			<data>
-			l31wBzwK9TxDJNkGRgyhLg3UgjRdNY/dgeRpUKgav1c=
+			yb8xkhwq2oKEP3K5E6nUIjTh1ZmUqLf/M4KD604VTLo=
 			</data>
 		</dict>
 		<key>app/app.module.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bAa7wccdbGe0tH3Fp6MittP/DbU=
+			oWF7PTcGSMk03ElW9tk6n9xuk4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			9kWlJoIbdZJ9XcjbMDIv7kkn98cspMQfuNUcfhVsOIs=
+			7BY/Wm26gYDV+MXIltTxmFUzpT+Bj5TwNuWg8j80z1s=
 			</data>
 		</dict>
 		<key>app/app.routing.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			y7gdj5PHOXAF6qq8u1clqixDeHI=
+			SUdAztcnD633hplaoVYhMs+62AI=
 			</data>
 			<key>hash2</key>
 			<data>
-			IlxDdopmVoyORiJxwKsWRUvxUPAD7bv3aDwrqpph9U8=
+			8+q7cbIQv4k0b4HTj0Jt00jXJG0ehig7l/YX2P9lUqo=
 			</data>
 		</dict>
 		<key>app/app.routing.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1djM2r+liuFyYnS+5dZNwlU/c3E=
+			FYnqmk4FFL2ueOEDhWia4QM5CMg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7uznYpTxC0/o0e34QQ+I7BW2KDFLEf1TrhdaL5VQE60=
+			SZEQuFurCvaKAwUKB9qlB+IRQMc7SAV2qZFqKnOIO5Y=
+			</data>
+		</dict>
+		<key>app/img/gde-logo.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			//MGwUOwy8l7M6CHNopX0liecLU=
+			</data>
+			<key>hash2</key>
+			<data>
+			9KHwLl4/qbYWO7LL1R68WyNNxHyCBwzcvDLVvxIdV+4=
 			</data>
 		</dict>
 		<key>app/item/item-detail.component.html</key>
@@ -43586,6 +43613,39 @@
 			<key>hash2</key>
 			<data>
 			MVZarOD7s+V4VKBVMW0MXMSaEJN0sQLHUlafrUnkWaM=
+			</data>
+		</dict>
+		<key>app/welcome/welcome.component.html</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lNsAPZ3GlUiv9dQdiDljITgFkNA=
+			</data>
+			<key>hash2</key>
+			<data>
+			W6ly4aNlXc2wSWPl0nbwO+fiJJgKYTstoCiCcZVEhr8=
+			</data>
+		</dict>
+		<key>app/welcome/welcome.component.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jLRPQ4s79EyFKEVUUSdyK6n+qPM=
+			</data>
+			<key>hash2</key>
+			<data>
+			auCSSAwX2JryZkZnZHQhZ4wwae937+r4f0JfmP6JF8k=
+			</data>
+		</dict>
+		<key>app/welcome/welcome.component.ts</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			AN2xzyC+8CNgDBdqgUncPI6Srt8=
+			</data>
+			<key>hash2</key>
+			<data>
+			rpXvBtbo8v2fNWRAXMuJqSvbsD5dKB/cL+0aFYoOvao=
 			</data>
 		</dict>
 		<key>build.xcconfig</key>

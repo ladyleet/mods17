@@ -3,10 +3,12 @@ import { NativeScriptRouterModule } from "nativescript-angular/router";
 import { Routes } from "@angular/router";
 
 import { WelcomeComponent } from "./welcome/welcome.component";
+import { GdesComponent } from "./gdes/gdes.component";
 
 const routes: Routes = [
-    { path: "", redirectTo: "/welcome", pathMatch: "full" },
-    { path: "welcome", component: WelcomeComponent}
+    { path: "", redirectTo: "/gdes", pathMatch: "full" },
+    { path: "welcome", component: WelcomeComponent},
+    { path: "gdes", component: GdesComponent}
 ];
 
 @NgModule({
