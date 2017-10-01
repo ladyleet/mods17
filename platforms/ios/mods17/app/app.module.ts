@@ -5,13 +5,10 @@ import { AppRoutingModule } from "./app.routing";
 import { AppComponent } from "./app.component";
 
 import 'rxjs/add/operator/map';
-import 'rxjs/add/operator/do';
 
 import { GdesService } from "./gdes/gdes.service";
 import { ItemService } from "./item/item.service";
 
-import { ItemsComponent } from "./item/items.component";
-import { ItemDetailComponent } from "./item/item-detail.component";
 import { WelcomeComponent } from "./welcome/welcome.component";
 import { GdesComponent } from "./gdes/gdes.component";
 
@@ -26,19 +23,15 @@ import { GdesComponent } from "./gdes/gdes.component";
     ],
     declarations: [
         AppComponent,
-        ItemsComponent,
-        ItemDetailComponent,
         WelcomeComponent,
         GdesComponent
     ],
     providers: [
-        ItemService, GdesService
+        GdesService
     ],
     schemas: [
         NO_ERRORS_SCHEMA
     ]
 })
-/*
-Pass your application module to the bootstrapModule function located in main.ts to start your app
-*/
+
 export class AppModule { }

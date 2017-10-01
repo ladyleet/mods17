@@ -1,10 +1,8 @@
 import { Injectable } from "@angular/core";
 import { Http, Headers, Response } from "@angular/http";
-// import { Subject } from "rxjs/Subject";
 import { Observable } from "rxjs/Observable";
-import { asap } from 'rxjs/scheduler/asap';
 
-export class Gde {
+export interface Gde {
   bio: string;
   fullname: string;
   skills: string;
@@ -18,14 +16,12 @@ export class Gde {
 @Injectable()
 export class GdesService {
 
-  constructor(private http: Http) { 
+  constructor(public http: Http) { 
   }
   
-  getGdes (): Observable<Gde[]> {
+  getGdes(): Observable<Gde[]> {
     return this.http.get(`https://gde-assistant.firebaseio.com/gdes.json`)
-    .map(res => res.json())  
+    .map(res => res.json());
   }
+
 }
-
-
-//
